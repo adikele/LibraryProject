@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Package xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_x7HX4TydEeOVTuhY_ZB6rw" name="uml">
+  <elementImport xmi:id="_yCHXwDydEeOVTuhY_ZB6rw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+  </elementImport>
+  <elementImport xmi:id="_yCkDsDydEeOVTuhY_ZB6rw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+  </elementImport>
+  <elementImport xmi:id="_yCkDsTydEeOVTuhY_ZB6rw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#UnlimitedNatural"/>
+  </elementImport>
+  <elementImport xmi:id="_yCkDsjydEeOVTuhY_ZB6rw">
+    <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+  </elementImport>
+  <packagedElement xmi:type="uml:Class" xmi:id="_9MVNcDydEeOVTuhY_ZB6rw" name="Person">
+    <ownedAttribute xmi:id="_IkGW8DyeEeOVTuhY_ZB6rw" name="name" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:id="_N6raEDyeEeOVTuhY_ZB6rw" name="sex" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:id="_PvgNsDyeEeOVTuhY_ZB6rw" name="age" visibility="private" aggregation="composite"/>
+    <ownedOperation xmi:id="_Ro9CoDyeEeOVTuhY_ZB6rw" name="__construct">
+      <ownedParameter xmi:id="_TT79wDyeEeOVTuhY_ZB6rw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_Th8kkDyeEeOVTuhY_ZB6rw" name="__toString">
+      <ownedParameter xmi:id="_UQ4uMDyeEeOVTuhY_ZB6rw" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_yhMrADyeEeOVTuhY_ZB6rw" name="Reader">
+    <generalization xmi:id="_fp4KQDyfEeOVTuhY_ZB6rw" general="_9MVNcDydEeOVTuhY_ZB6rw"/>
+    <generalization xmi:id="_DbrmEEYqEeO_39JV8b_xdg" general="_ue7S8DyfEeOVTuhY_ZB6rw"/>
+    <ownedAttribute xmi:id="_129s8DyeEeOVTuhY_ZB6rw" name="Profession" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:id="_hrQ-cELaEeOC8tniW9Q1LQ" name="ID" visibility="private" aggregation="composite"/>
+    <ownedOperation xmi:id="_4TuqUDyeEeOVTuhY_ZB6rw" name="__construct">
+      <ownedParameter xmi:id="_6Isn4DyeEeOVTuhY_ZB6rw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_jra4UELaEeOC8tniW9Q1LQ" name="__toString">
+      <ownedParameter xmi:id="_kZA-IELaEeOC8tniW9Q1LQ" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_JwRZsDyfEeOVTuhY_ZB6rw" name="Author">
+    <generalization xmi:id="_cJArkDyfEeOVTuhY_ZB6rw" general="_9MVNcDydEeOVTuhY_ZB6rw"/>
+    <generalization xmi:id="_ClSJkEYqEeO_39JV8b_xdg" general="_ue7S8DyfEeOVTuhY_ZB6rw"/>
+    <ownedAttribute xmi:id="_LlZIQDyfEeOVTuhY_ZB6rw" name="Nationality" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:id="_R3R9EDyfEeOVTuhY_ZB6rw" name="livingStatus" visibility="private" aggregation="composite"/>
+    <ownedOperation xmi:id="_TFW5wDyfEeOVTuhY_ZB6rw" name="__construct">
+      <ownedParameter xmi:id="_T0c0YDyfEeOVTuhY_ZB6rw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_YpjtYELaEeOC8tniW9Q1LQ" name="__toString">
+      <ownedParameter xmi:id="_aYWBAEYoEeO_39JV8b_xdg" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_ue7S8DyfEeOVTuhY_ZB6rw" name="Book">
+    <ownedAttribute xmi:id="_v7A2cDyfEeOVTuhY_ZB6rw" name="title" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:id="_x5YAkDyfEeOVTuhY_ZB6rw" name="genre" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:id="_1gM9UDyfEeOVTuhY_ZB6rw" name="pages" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:id="_Dzzb8ELZEeOC8tniW9Q1LQ" name="readerID" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:id="_If27YELZEeOC8tniW9Q1LQ" name="authorID" visibility="private" aggregation="composite"/>
+    <ownedAttribute xmi:id="_MJ6yUELZEeOC8tniW9Q1LQ" name="authorDetails" aggregation="composite"/>
+    <ownedAttribute xmi:id="_O-yGoELZEeOC8tniW9Q1LQ" name="readerDetails" aggregation="composite"/>
+    <ownedOperation xmi:id="_2NWXMDyfEeOVTuhY_ZB6rw" name="__construct">
+      <ownedParameter xmi:id="_3KcRkDyfEeOVTuhY_ZB6rw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_4r5dQDyfEeOVTuhY_ZB6rw" name="getGenre">
+      <ownedParameter xmi:id="_5khHUDyfEeOVTuhY_ZB6rw" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_YreOYELZEeOC8tniW9Q1LQ" name="getReaderID">
+      <ownedParameter xmi:id="_aegSQELZEeOC8tniW9Q1LQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_a2CogELZEeOC8tniW9Q1LQ" name="getAuthorID">
+      <ownedParameter xmi:id="_bkFaQELZEeOC8tniW9Q1LQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_buEcsELZEeOC8tniW9Q1LQ" name="addReader">
+      <ownedParameter xmi:id="_dCZyYELZEeOC8tniW9Q1LQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_dl3r0ELZEeOC8tniW9Q1LQ" name="addAuthor">
+      <ownedParameter xmi:id="_eNNYoELZEeOC8tniW9Q1LQ" direction="return"/>
+    </ownedOperation>
+    <ownedOperation xmi:id="_hJ_54ELZEeOC8tniW9Q1LQ" name="__toString">
+      <ownedParameter xmi:id="_hvi28ELZEeOC8tniW9Q1LQ" direction="return"/>
+    </ownedOperation>
+  </packagedElement>
+</uml:Package>

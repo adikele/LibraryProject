@@ -1,0 +1,96 @@
+Project Submission for OOP Course.
+
+By:
+Aditya Kelekar
+1204 174
+
+Asim 
+1206 101
+
+1. Definition
+
+- Specification – what this is all about e.g. Card Deck
+The "Library" website that we have created allows a user to list out all the available library books in a particular category.
+
+- User’s manual with screen shots
+Hello Customer!
+Welcome to Library website.
+Please choose a category of books for which you wish to see the available books.
+
+Available categories are: fiction and adventure.
+Please enter one of the following words:
+fiction 
+adventure
+
+
+
+- Test cases: what will be tested?
+None
+
+
+2. Design
+
+- Data structures, files etc.
+There are four classes apart from a testLibrary file:
+Reader, Author, Person, Book 
+
+Every Book Object has two type of data: 
+(i)    five fields, namely, title, genre, pages, readerID and authorID, that are entered directly with a new book entry
+(ii)   arrays authorDetails and readerDetails. 
+The testLibrary files uses Book Class's methods getReaderID () and getAuthorID () to fill in the authorDetails and readerDetails fields of every Book object that is created.
+The authorDetails and readerDetails attributes of Book are filled from data stored in objects of type Reader and Author. 
+The parent class for the Reader and Author classes is the Person class.
+
+
+
+
+- UML diagrams (min 4 classes, one container class, inheritance included on some level!)
+
+
+3. Implementation
+
+- Well commented code (phpDoc /** */)
+
+- Results of test cases
+
+
+4. Delivery
+
+- Installation and requirements
+
+- Link to your site
+http://users.metropolia.fi/~adityak/OOP/Project/testLibrary.php
+
+
+5. Conclusion
+
+- Targets fulfilled?
+
+a)  In programming
+A very rudimentary programming application has been created. Application performs the basic function of presenting the results according to the users' selection.
+Though we do have a working application, some basic features, such as the provision for a user to add books through an interactive screen, is missing.
+
+b)  In working
+
+
+c)  In learning
+We learnt how to loop through arrays and obtain different kinds of search results
+
+6. Ideas for further developments:
+1.  Provision for an admin user to add books through an interactive screen,
+2.  Provision for a user to select genre from a combo box.
+3. 
+
+
+
+
+
+
+Aditya Kelekar
+1204 174
+
+Asim 
+1206 101
+
+
+	
